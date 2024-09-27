@@ -6,6 +6,41 @@
     }
 }
 
-
-
+/* SMARTPHONE VERSION */
+@media (max-width:480px){
+    .container{
+        width: 100%;
+        padding: 0 10px; 
+    }
+    .row{
+        flex-wrap:wrap;
+    }
+    .col{
+       margin-bottom:50px; 
+    }
+    /* TITLE */
+        h1{
+            font-size: 50px;
+        }
+    /* LESSIONS */
+     .lessons .col{
+        width: 100%;
+    }
+    
+    /* STEPS */
+    .steps .col {
+        width:100%;
+    }
+    .steps{
+        margin:0;
+    }
+    
+    /* WHY US */
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+}
 
